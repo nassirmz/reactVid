@@ -16,7 +16,7 @@ class SearchBar extends Component {
     )
   }
   //event handler for input changes
-  handleInputChang(e) {
+  handleInputChange(e) {
     this.setState({ term: e.target.value });
   }
 }
